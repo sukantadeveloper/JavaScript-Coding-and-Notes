@@ -3,7 +3,16 @@ The JavaScript this keyword which is used in a function, refers to the object it
 It makes function reusable by letting you decide the object value.
 This value is determined entirely by how a function is called.
 
+
+
+If this keyword in function strict mode then it will show undifiened 
+ in not strict mode it will take window object or global object because of this substitution
+
+ arrow function they don't have there own this context they are taking from their texcial context
 */
+
+
+
 
 // -----------------example 1 ---------------- //
 
